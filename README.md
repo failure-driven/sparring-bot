@@ -2,6 +2,15 @@
 
 Sparring robot.
 
+## TODO
+
+- [ ] model in WebGL
+- [ ] configure timing and modes
+- [ ] build a mock model
+- [ ] build a "demo sparring arm"
+- [ ] get a useable 90 degree (or 180 degree) rotary actuator for demo sparring arm
+- [ ] build a "hitting arm" prototype
+
 ## Existing robots
 
 - Stryk Tek RXT-1
