@@ -25,4 +25,9 @@ Sparring robot.
 - Punching Pro
   - "https://punchingpro.com/"
   - https://newatlas.com/punching-pro-receives-and-delivers-boxing-blows/18375/
+- Whole heap out there
+  - [Google boxing practice active](https://www.google.com/search?q=boxing+practice+active&tbm=isch)
+  - Punch Reflex Ball
+  - rotating balls
+  - spinning bar
 
