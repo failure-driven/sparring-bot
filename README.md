@@ -2,6 +2,10 @@
 
 Sparring robot.
 
+demo https://sparring-bot.netlify.app/
+
+[![Netlify Status](https://api.netlify.com/api/v1/badges/33e61260-b0ba-4aa4-89ba-aa87ed42c8bd/deploy-status)](https://app.netlify.com/sites/sparring-bot/deploys)
+
 ## TODO
 
 - [ ] model in WebGL
