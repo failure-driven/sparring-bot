@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import BoxDemo from "./BoxDemo";
+import SparringBotDemo from "./SparringBotDemo";
 
 function App() {
   return (
@@ -8,7 +8,7 @@ function App() {
       <header>
         <h1>Sparring Bot</h1>
       </header>
-      <BoxDemo />
+      <SparringBotDemo />
     </div>
   );
 }
