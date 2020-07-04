@@ -7,8 +7,8 @@ function App() {
     <div className="App">
       <header>
         <h1>Sparring Bot</h1>
-        <BoxDemo />
       </header>
+      <BoxDemo />
     </div>
   );
 }
