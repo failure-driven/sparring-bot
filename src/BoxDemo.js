@@ -1,5 +1,6 @@
 import React, { useRef, useState } from "react";
 import { Canvas, useFrame } from "react-three-fiber";
+import { Controls, useControl } from "react-three-gui";
 
 function Box(props) {
   // This reference will give us direct access to the mesh
@@ -31,13 +32,23 @@ function Box(props) {
 }
 
 function BoxDemo(props) {
+  const rotationX = useControl("Rotate X", {
+    group: "Basic",
+    type: "number",
+    scrub: true,
+    min: -20,
+    max: 20,
+  });
   return (
-    <Canvas>
-      <ambientLight />
-      <pointLight position={[10, 10, 10]} />
-      <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
-    </Canvas>
+    <>
+      <Canvas>
+        <ambientLight />
+        <pointLight position={[10, 10, 10]} />
+        <Box position={[rotationX * 10, 0, 0]} />
+        <Box position={[1.2, 0, 0]} />
+      </Canvas>
+      <Controls />
+    </>
   );
 }
 
