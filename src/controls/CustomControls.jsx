@@ -9,7 +9,9 @@ const CustomControls = () => {
 
   return (
     <orbitControls
-      enableZoom={false}
+      enableZoom={true}
+      enableKeys={true}
+      enablePan={true}
       maxPolarAngle={Math.PI / 3}
       minPolarAngle={Math.PI / 3}
       args={[camera, gl.domElement]}
