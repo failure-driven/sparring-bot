@@ -65,11 +65,20 @@ demo https://sparring-bot.netlify.app/
   - fair few more poole noodle boxing drills
 - timing drills with shadow boxing - https://www.youtube.com/watch?v=ooMjhFToGQw
 
-## Comertialization
+## Comercialisation
 
 - multi arm active sparring robot
 - kids gimick hitting toy
 - arcade style game - like guitar hero, dance dance revolution etc
+
+## WebGL inspiration
+
+- https://codesandbox.io/s/react-three-fiber-untitled-game-4pp5r
+- https://github.com/wonderunit/storyboarder/blob/master/src/js/xr/src/SceneManagerXR.js
+
+using
+
+- https://github.com/react-spring/react-three-fiber
 
 ## Create react app
 
