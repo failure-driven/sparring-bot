@@ -34,6 +34,42 @@ demo https://sparring-bot.netlify.app/
   - Punch Reflex Ball
   - rotating balls
   - spinning bar
+- VR boxing - eg https://www.youtube.com/watch?v=iIrmhf9pRH0
+- boxing arms - spinning from punch impact
+
+  - [sparbar](https://sparbar.com/)
+  - [Title boxing - reflex bar](https://www.titleboxing.com/title-rapid-reflex-boxing-bar)
+  - [Boxingbar](https://www.boxingbar.com/)
+    - Conor McGregor boxingbar video - https://www.youtube.com/watch?v=U_yBsNBDJnM
+  - [Innolife MMA spinning bar](https://www.amazon.com.au/INNOLIFE-Boxing-Trainer-Punching-Spinning/dp/B07TZQNSTT)
+  - Viking spinning bar
+  - Shinobi Rapid rotating bar
+
+- spider bag, assuming you have 4 posts to set it up in - https://www.titleboxing.com/title-spider-bag
+- DIY sparbar
+  - [Figher DIY](https://www.fighterdiy.com/p/fighter-diy-ebook.html)
+  - [DIY sparbar pro](https://www.fighterdiy.com/2020/05/diy-spar-bar-pro.html)
+    - video - https://www.youtube.com/watch?v=xdYXVNRVgUA
+  - [DIY sparbar simple](https://www.fighterdiy.com/2020/05/diy-spar-bar-simple.html)
+    - video - https://www.youtube.com/watch?v=dY7LX6OlIDo
+  - [DIY \$20 freestanding punching bag](https://www.youtube.com/watch?v=V29us98-FUM)
+  - [DIY a Slip Stick Reflex Bag out of Scrap](https://www.youtube.com/watch?v=c_Eu3BNlha8)
+- static solutions
+  - attach pads to a [Focusmaster extender bar](https://www.focusmaster.com/shop/equipment/extender-bar/)
+  - [Kung Fu wooden dummy](https://www.peninsulakungfu.com.au/training/kung-fu-wooden-dummy)
+- manual version
+  - trainer moves a bar - https://www.youtube.com/watch?v=-dNo3Yh02ik
+  - Conor McGregor dodging foam tube training - https://www.youtube.com/watch?v=Kg4LxbLPec8
+    - including foam tube "punching" - vs just striking down/across
+  - foam stick drills - https://www.youtube.com/watch?v=cR2pT7tpkc0
+  - fair few more poole noodle boxing drills
+- timing drills with shadow boxing - https://www.youtube.com/watch?v=ooMjhFToGQw
+
+## Comertialization
+
+- multi arm active sparring robot
+- kids gimick hitting toy
+- arcade style game - like guitar hero, dance dance revolution etc
 
 ## Create react app
 
