@@ -1,7 +1,13 @@
 import React, { useRef } from "react";
+import { useFrame } from "react-three-fiber";
 
 const Arm = ({ position, armLength, armDiameter }) => {
   const mesh = useRef();
+
+  useFrame(({ clock }) => {
+    mesh.current.rotation.z = Math.sin(clock.getElapsedTime() * 10);
+  });
+
   return (
     <mesh ref={mesh} rotation={[-Math.PI / 2, 0, 0]} position={position}>
       <cylinderGeometry
