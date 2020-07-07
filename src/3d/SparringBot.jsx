@@ -1,21 +1,25 @@
 import React, { useRef } from "react";
 import { useFrame } from "react-three-fiber";
 
-const Arm = ({ position, armLength, armDiameter }) => {
+const Arm = ({ position, armLength, armDiameter, left }) => {
   const mesh = useRef();
 
   useFrame(({ clock }) => {
-    mesh.current.rotation.z = Math.sin(clock.getElapsedTime() * 10);
+    mesh.current.rotation.y = left
+      ? (Math.PI / 2) * (1 + Math.sin(clock.getElapsedTime() * 5))
+      : (Math.PI / 2) * (2 - (1 + Math.sin(clock.getElapsedTime() * 5)));
   });
 
   return (
-    <mesh ref={mesh} rotation={[-Math.PI / 2, 0, 0]} position={position}>
-      <cylinderGeometry
-        attach="geometry"
-        args={[armDiameter, armDiameter, armLength, 32]}
-      />
-      <meshLambertMaterial attach="material" color="red" />
-      {/* <axesHelper /> */}
+    <mesh ref={mesh}>
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={position}>
+        <cylinderGeometry
+          attach="geometry"
+          args={[armDiameter, armDiameter, armLength, 32]}
+        />
+        <meshLambertMaterial attach="material" color="red" />
+        {/* <axesHelper /> */}
+      </mesh>
     </mesh>
   );
 };
@@ -41,6 +45,7 @@ const Bag = () => {
       <meshLambertMaterial attach="material" color="navy" />
       <Arm
         position={[0, headHeight - armOffset, 0.7]}
+        left={true}
         armLength={armLength}
         armDiameter={armDiameter}
       />
@@ -51,6 +56,7 @@ const Bag = () => {
       />
       <Arm
         position={[0, beltHeight - armOffset, 0.7]}
+        left={true}
         armLength={armLength}
         armDiameter={armDiameter}
       />
@@ -61,6 +67,7 @@ const Bag = () => {
       />
       <Arm
         position={[0, kneeHeight - armOffset, 0.7]}
+        left={true}
         armLength={armLength}
         armDiameter={armDiameter}
       />
