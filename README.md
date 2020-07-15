@@ -80,6 +80,22 @@ using
 
 - https://github.com/react-spring/react-three-fiber
 
+## Developer Extensions
+
+- beginner tuturials
+  - https://www.digitalocean.com/community/tutorials/react-react-with-threejs
+  - https://medium.com/@summerdeehan/a-beginners-guide-to-using-three-js-react-and-webgl-to-build-a-3d-application-with-interaction-5d7b2c7ca89a
+  - https://medium.com/@dhiashakiry/building-a-3d-interactive-with-react-and-threejs-70dfd212bf67
+- Blender to generate GLTF files
+- GLTFLoader - https://threejs.org/docs/#examples/en/loaders/GLTFLoader
+- 3D model - https://threejs.org/examples/#webgl_animation_skinning_blending
+- state managment with https://github.com/react-spring/zustand
+- helpers for bearings https://blog.prototypr.io/your-3d-wilderness-bearings-threejs-helpers-in-react-three-fiber-64770d59b222
+- what are these recepies https://github.com/react-spring/react-three-fiber/blob/master/recipes.md
+- add framerate?
+- dat GUI https://github.com/claus/react-dat-gui
+- Three React GUI https://github.com/ueno-llc/react-three-gui
+
 ## Create react app
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
