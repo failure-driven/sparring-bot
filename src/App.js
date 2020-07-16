@@ -3,7 +3,6 @@ import "./App.css";
 import { Router, Link } from "@reach/router";
 import SparringBotDemo from "./SparringBotDemo";
 import Timing from "./controls/Timing";
-import "bootstrap/dist/css/bootstrap.css";
 
 const NavLink = (props) => (
   <Link
@@ -36,7 +35,7 @@ function App() {
           rel="noopener noreferrer"
           target="_blank"
         >
-          Github
+          <i className="fa fa-external-link-alt"></i> Github
         </a>
       </nav>
       <Router>
