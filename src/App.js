@@ -3,15 +3,41 @@ import "./App.css";
 import { Router, Link } from "@reach/router";
 import SparringBotDemo from "./SparringBotDemo";
 import Timing from "./controls/Timing";
+import "bootstrap/dist/css/bootstrap.css";
+
+const NavLink = (props) => (
+  <Link
+    {...props}
+    getProps={({ isCurrent }) => {
+      return {
+        className: `${props.className} ${isCurrent && "active"}`,
+      };
+    }}
+  />
+);
 
 function App() {
   return (
     <div className="App">
-      <header>
-        <h1>Sparring Bot</h1>
-      </header>
-      <nav>
-        <Link to="/">Home</Link> | <Link to="/timing">Timing</Link>
+      <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
+        <Link to="/" className="navbar-brand mb-0 h1">
+          Sparring Bot
+        </Link>
+        <ul className="navbar-nav mr-auto">
+          <li className="nav-item">
+            <NavLink to="/timing" className="nav-link">
+              Timing
+            </NavLink>
+          </li>
+        </ul>
+        <a
+          href="https://github.com/failure-driven/sparring-bot"
+          class="navbar-text"
+          rel="noopener noreferrer"
+          target="_blank"
+        >
+          Github
+        </a>
       </nav>
       <Router>
         <SparringBotDemo path="/" />
